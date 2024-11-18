@@ -33,7 +33,8 @@ ftd_device = {
 try:
     # Initialize SSH client
     ssh_client = paramiko.SSHClient()
-    ssh_client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+#    ssh_client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+    ssh_client.set_missing_host_key_policy(paramiko.RejectPolicy())
 
     # Connect to the device
     ssh_client.connect(
