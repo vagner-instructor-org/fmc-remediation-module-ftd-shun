@@ -1,0 +1,30 @@
+{
+  "name": "@vagner-instructor/fmc-remediation-module-ftd-shun",
+  "version": "1.0.0",
+  "description": "Creating package 1.0.0 on ubuntu",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vagner-instructor/fmc-remediation-module-ftd-shun.git"
+  },
+  "keywords": [
+    "cisco",
+    "secure",
+    "firewall",
+    "management",
+    "python",
+    "module"
+  ],
+  "author": "Vagner Silva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vagner-instructor/fmc-remediation-module-ftd-shun/issues"
+  },
+  "homepage": "https://github.com/vagner-instructor/fmc-remediation-module-ftd-shun#readme",
+  "publishConfig": {
+  "@YOUR-USERNAME:registry": "https://npm.pkg.github.com"
+  }
+}
